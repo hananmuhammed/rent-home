@@ -1,0 +1,345 @@
+
+    
+
+@media screen and (    
+max-width:1440px) {
+    div.left h1 a img {
+        margin-left: 86px;
+    }
+
+    div.right nav {
+        margin-right:55px;
+    }
+    
+    #spotlight{
+        padding-top: 30px;
+    }
+
+    
+
+}
+
+
+@media screen and (    
+max-width:1024px) {
+    
+    div.left h1 a img {
+        margin-left: 30px;
+    }
+
+    div.right nav {
+        margin-right:9px;
+    }
+
+   
+
+    #spotlight{
+        padding-top: 60px;
+    }
+
+   
+
+
+}
+
+
+@media screen and (    
+max-width:930px) {
+
+    nav,    header .right{
+        display: none;
+    }
+
+    .menu-button{
+        display: block;
+    }
+    
+    #spotlight{
+        padding-top: 80px;
+    }
+
+    #spotlight form input:first-child{
+        width: 350px;
+
+    }
+ 
+    #spotlight h1{
+        font-size: 50px;
+    }
+
+    #spotlight p{
+        font-size: 19px;
+    }
+
+    .mobile-nav {
+        display:none ;
+        position: absolute;
+        top:0 ;
+        right:0% ;
+        width: 30%;
+        height: 50%;
+        background-color: rgba(0, 0, 0,0.8);
+        z-index: 1000;
+    }
+
+    .mobile-nav ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 10% auto;
+        text-align: center;
+    }
+    
+
+    .mobile-nav ul li{
+        margin-bottom: 100px;
+    }
+
+
+    .mobile-nav ul li a{
+        display: block;
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.2em;
+    }
+
+
+    .mobile-nav ul li a:hover{
+        text-decoration: underline;
+    }
+
+
+    .close-btn{
+        margin: 10%;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+
+
+}    
+
+
+@media screen and (    
+max-width:630px) {
+
+    nav,    header .right{
+        display: none;
+    }
+     
+    .menu-button{
+        display: block;
+    }
+
+    #spotlight{
+        padding-top: 100px;
+    }
+
+    #spotlight form input:first-child{
+        width: 270px;
+
+    }
+ 
+    #spotlight h1{
+        font-size: 40px;
+    }
+
+    #spotlight p{
+        font-size: 19px;
+    }
+
+    
+
+}
+    
+@media screen and (    
+max-width:550px) {
+
+    nav,    header .right{
+        display: none;
+    }
+     
+    .menu-button{
+        display: block;
+    }
+
+    #spotlight{
+        padding-top: 120px;
+    }
+
+    #spotlight form input:first-child{
+        width: 210px;
+
+    }
+ 
+    #spotlight h1{
+        font-size: 35px;
+    }
+
+    #spotlight p{
+        font-size: 12px;
+    }
+
+
+    .mobile-nav {
+        display:none ;
+        position: absolute;
+        top:0 ;
+        right:0% ;
+        width: 30%;
+        height: 45%;
+        background-color: rgba(0, 0, 0,0.8);
+        z-index: 1000;
+    }
+
+    .mobile-nav ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 10% auto;
+        text-align: center;
+    }
+    
+
+    .mobile-nav ul li{
+        margin-bottom: 100px;
+    }
+
+
+    .mobile-nav ul li a{
+        display: block;
+        color: #fff;
+        text-decoration: none;
+        font-size: 0.9em;
+    }
+
+
+    .mobile-nav ul li a:hover{
+        text-decoration: underline;
+    }
+
+
+    .close-btn{
+        margin: 10%;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+    
+
+}
+
+
+
+@media screen and (    
+max-width:375px) {
+
+    nav,    header .right{
+        display: none;
+    }
+     
+    .menu-button{
+        display: block;
+    }
+
+    #spotlight{
+        padding-top: 160px;
+    }
+
+    #spotlight form input:first-child{
+        width: 140px;
+
+    }
+ 
+    #spotlight h1{
+        font-size: 20px;
+    }
+
+    #spotlight p{
+        font-size: 10px;
+    }
+
+    #spotlight form input:last-child{
+        width:80px;
+    }    
+
+
+    .mobile-nav {
+        display:none ;
+        position: absolute;
+        top:0 ;
+        right:0% ;
+        width: 39%;
+        height: 45%;
+        background-color: rgba(0, 0, 0,0.8);
+        z-index: 1000;
+    }
+
+    .mobile-nav ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 10% auto;
+        text-align: center;
+    }
+    
+
+    .mobile-nav ul li{
+        margin-bottom: 100px;
+    }
+
+
+    .mobile-nav ul li a{
+        display: block;
+        color: #fff;
+        text-decoration: none;
+        font-size: 0.9em;
+    }
+
+
+    .mobile-nav ul li a:hover{
+        text-decoration: underline;
+    }
+
+
+    .close-btn{
+        margin: 10%;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+
+
+}
+
+/* @media screen and (    
+max-width:px) {
+
+    nav,    header .right{
+        display: none;
+    }
+     
+    .menu-button{
+        display: block;
+    }
+
+    div.left h1 a img {
+        margin-left: 110px;
+    }
+
+    #spotlight h1{
+        font-size: 50px;
+    }
+
+    #spotlight p{
+        font-size: 19px;
+    }
+
+    #spotlight form input:first-child{
+
+        width: 370px;
+
+
+    } */
+
+
